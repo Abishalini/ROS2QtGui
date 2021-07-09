@@ -25,4 +25,4 @@ Creating custom GUI with Qt and ROS2
 
 5. Launch the GUI using the following command:
 
-        ros2 launch qtros2 gui.launch
+        ros2 launch qtros2 gui.launch.py
