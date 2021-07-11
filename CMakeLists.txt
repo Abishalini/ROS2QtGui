@@ -48,8 +48,11 @@ set(CMAKE_AUTORCC ON)
 add_executable(${PROJECT_NAME}
   src/main.cpp
   src/main_gui.cpp
+  src/ros2node.cpp
+  src/custom_widgets/lineedit.cpp
   include/${PROJECT_NAME}/ros2node.hpp
   include/${PROJECT_NAME}/main_gui.hpp
+  include/${PROJECT_NAME}/custom_widgets/lineedit.hpp
 )
 
 target_include_directories(${PROJECT_NAME}
