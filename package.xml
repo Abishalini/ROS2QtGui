@@ -5,7 +5,7 @@
   <description>
      Example app using QT Widgets and ROS2
   </description>
-  <license>BSD</license>
+  <license>BSD-3-Clause</license>
   <maintainer email="abi@picknik.ai">Abishalini Sivaraman</maintainer>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
